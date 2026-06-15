@@ -54,7 +54,7 @@ function CreatorCard({ i, label }: { i: number; label: string }) {
   );
 }
 
-function Section({ title, icon, names }: { title: string; icon: React.ReactNode; names: string[] }) {
+function Section({ title, icon, names }: { title: string; icon: ReactNode; names: string[] }) {
   return (
     <div className="mt-10">
       <div className="flex items-center justify-between">
