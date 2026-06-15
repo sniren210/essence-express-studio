@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
 import { TypingText } from "@/components/site/TypingText";
 import { Megaphone, PenTool, FileText, MapPin, Quote, Plus } from "lucide-react";

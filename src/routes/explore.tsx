@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
 import { Search, MapPin, Instagram, Music2, Youtube, ChevronRight } from "lucide-react";
+import type { ReactNode } from "react";
 
 export const Route = createFileRoute("/explore")({
   head: () => ({
