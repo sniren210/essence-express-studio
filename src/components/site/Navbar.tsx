@@ -10,7 +10,7 @@ export function Navbar() {
         </Link>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
           <Link to="/explore" className="text-muted-foreground hover:text-foreground transition" activeProps={{ className: "text-foreground" }}>Eksplor</Link>
-          <a href="#cara-kerja" className="text-muted-foreground hover:text-foreground transition">Cara Kerja</a>
+          <Link to="/" hash="cara-kerja" className="text-muted-foreground hover:text-foreground transition">Cara Kerja</Link>
           <Link to="/" className="text-muted-foreground hover:text-foreground transition" activeProps={{ className: "text-foreground border-b-2 border-foreground pb-1" }}>Untuk Brand</Link>
           <Link to="/for-creator" className="text-muted-foreground hover:text-foreground transition" activeProps={{ className: "text-foreground border-b-2 border-foreground pb-1" }}>Untuk Kreator</Link>
         </nav>

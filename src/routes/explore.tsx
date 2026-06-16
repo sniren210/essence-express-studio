@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
+import { BrandSections } from "@/components/site/BrandSections";
 import { Search, MapPin, Instagram, Music2, Youtube, ChevronRight } from "lucide-react";
 import type { ReactNode } from "react";
 
@@ -123,6 +124,8 @@ function ExplorePage() {
           </div>
         </div>
       </section>
+
+      <BrandSections />
     </Layout>
   );
 }
