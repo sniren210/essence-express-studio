@@ -33,6 +33,10 @@
   --color-pink: var(--pink);
   --color-pink-soft: var(--pink-soft);
   --color-mint: var(--mint);
+  --color-txt-primary: var(--txt-primary);
+  --color-txt-secondary: var(--txt-secondary);
+  --color-txt-tertiary: var(--txt-tertiary);
+  --color-txt-light-grey: var(--txt-light-grey);
   --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
 }
